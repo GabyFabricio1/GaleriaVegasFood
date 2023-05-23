@@ -96,7 +96,29 @@ section nav .container-fluid{
     justify-content: center;
     align-items: center;
 }
+fa {
+    color: #FFF;
+}
+
+.fa-solid {
+    color: #FFF;
+}
+
+.btnCart {
+    margin-left: 8px;
+}
+
+.d-flex {
+    margin-bottom: 5px;
+}
 .container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin: 0 auto;
+    gap: 100px;
+}
+.container-pratos{
     display: flex;
     flex-wrap: wrap;
     max-width: 80%;
@@ -108,8 +130,9 @@ section nav .container-fluid{
     align-items: center;
     justify-content: center;
     display: flex;
+
 }
-h2{
+section h2{
     font-family: 'Lilita One', cursive;
     color:white;
     justify-content: center;
@@ -117,4 +140,5 @@ h2{
     font-size: 48px;
     margin-top: 30px;
     background-color: #4B660F;
+
 }

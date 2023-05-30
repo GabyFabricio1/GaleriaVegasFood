@@ -1,0 +1,16 @@
+tr {
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+}
+
+td img {
+    width: 400px;
+    height: 400px;
+}
+
+@media screen and (max-width:430px) {
+    tr {
+        flex-direction: column;
+    }
+}

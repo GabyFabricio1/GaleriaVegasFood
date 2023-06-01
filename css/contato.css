@@ -1,3 +1,17 @@
+.fa-solid {
+    color: #000 !important;
+}
+
+.fa-cart-shopping {
+    color: #FFF !important;
+}
+
+.esquerd {
+    height: 200px !important
+}
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -14,133 +28,10 @@ section{
     height: 100vh;
 }
 
-section nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: fixed;
-    right: 0;
-    left: 0;
-    background:#4B660F;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    z-index: 1000;
-}
-
-section nav .logo img{
-    width: 100px;
-    cursor: pointer;
-    margin: 7px 0;
-   
-}
-section nav .logo{
-    display: flex;
-    align-items: center;
-}
-section nav .logo a{
-    text-decoration: none;
-    color:white;
-    font-size: 30px;
-    font-family: 'Lilita One', cursive;
-    
-}
-
 .all{
     display: flex;
 }
 
-section nav ul{
-    list-style: none;
-}
-
-section nav ul li{
-    display: inline-block;
-    margin: 0 15px;
-}
-
-section nav ul li a{
-    text-decoration: none;
-    color:white;
-    font-weight: 500;
-    font-size: 17px;
-    transition: 0.1s;
-    font-family: 'Quicksand', sans-serif;
-
-}
-
-section nav ul li a::after{
-    content: '';
-    width: 0;
-    height: 2px;
-    background:#fac031;
-    display: block;
-    transition: 0.2s linear;
-}
-
-
-.main h2{
-    border-radius: 10px;
-}
-
-
-section nav ul li a:hover::after{
-    width: 100%;
-}
-
-section nav ul li a:hover{
-    color: #fac031;
-}
-
-section nav .icon i{
-    font-size: 18px;
-    color: white;
-    margin: 0 5px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-section nav .icon i:hover{
-    color: #fac031;
-}
-
-section .main{
-    display: flex;
-    align-items: center;
-    position: relative;
-    top: 130px;
-}
-
-section .main .men_text h1{
-    font-size: 80px;
-    margin-left: 150px;
-    margin-top: 60px;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 500;
-
-}
-
-section .main .men_text h1 span{
-    color: #4B660F;
-    font-family: 'Bebas Neue', cursive;
-    line-height: 22px;
-    font-size: 80px;
-    
-}
-
-section .main h2{
-    font-size: 50px;
-    position: relative;
-    top: 10px;
-    left: -15px;
-
-    
-}
-
-section .main h2 span{
-    color: #000;
-    font-family: 'Quicksand', sans-serif;
-    margin-right: 33px;
-    
-}
 
 .env span{
     color: #000;
@@ -149,59 +40,13 @@ section .main h2 span{
     
 }
 
-section .main .main_image img{
-    width: 600px;
-    position: relative;
-    left: 70px;
-}
-
-
-
-section .main_btn{
-    background: #fac031;
-    position: relative;
-    left: 123px;
-    bottom: 30px;
-    width: 150px;
-    cursor: pointer;
-    padding: 12px 25px;
-  
-
-}
-
-section .main_btn a{
-    color: #fff;
-    margin-right: 5px;
-    text-decoration: none;
-    font-family: 'Quicksand', sans-serif;
-}
-
-section .main_btn i{
-    color: #fff;
-    transition: 0.3s;
-}
-
-section .main_btn:hover i{
-    transform: translateX(7px);
-}
-
 .bio{
-    margin-top: 170px;
-    margin-left: 150px;
     width: 600px;
     font-weight: 500;
     font-size: 24px;
     font-family: 'Kantumruy Pro', sans-serif;
 
 }
-
-.slideshow-container {
-    margin-left: 230px;
-    margin-top: 50px;
-    max-width: 400px;
-    position: relative;
-    
-  }
   
   .mySlides {
     display: none;
@@ -210,10 +55,7 @@ section .main_btn:hover i{
   
   .prev, .next {
     cursor: pointer;
-    position: absolute;
-    top: 50%;
     width: auto;
-    margin-top: -22px;
     padding: 16px;
     color: white;
     font-weight: bold;
@@ -237,8 +79,6 @@ section .main_btn:hover i{
     color: #f2f2f2;
     font-size: 15px;
     padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
     width: 100%;
     text-align: center;
   }
@@ -247,28 +87,22 @@ section .main_btn:hover i{
     color: #f2f2f2;
     font-size: 12px;
     padding: 8px 12px;
-    position: absolute;
-    top: 0;
   }
   
-  .pontos{
-      margin-right: -90px;
-  }
   
   .dot {
     cursor: pointer;
     height: 15px;
     width: 15px;
-    margin: 0 2px;
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
   }
   
-  .active, .dot:hover {
+  /* .active, .dot:hover {
     background-color: #717171;
-  }
+  } */
   
   .fade {
     animation-name: fade;
@@ -282,24 +116,12 @@ section .main_btn:hover i{
 
 .direito h2{
     font-size: 50px;
-    margin-top: 199px;
     width: 690px;
-    margin-left: 230px;
 }
 
 .direito h2 span{
     color: #4B660F;
     font-family: 'Quicksand', sans-serif;
-    margin-right: 33px;
-}
-
-.contato{
-    margin-left: -847px;
-    margin-top: -63px;
-}
-
-  .box{
-    margin-left: 1088px;
 }
 
 .box2{
@@ -333,17 +155,10 @@ section .main_btn:hover i{
     color: rgb(104, 231, 142)
 }
 
-.form h3{
-    margin-left: 1088px;
-    margin-top: 90px;
-}
 
 .form__group {
-    position: relative;
     padding: 15px 0 0;
-    margin-top: 30px;
     width: 50;
-    margin-left: 1088px;
     font-family: 'Kantumruy Pro', sans-serif;
   }
   
@@ -364,7 +179,7 @@ section .main_btn:hover i{
   .form__field::placeholder {
     color: transparent;
   }
-  .form__field:placeholder-shown .form__label {
+  .form_field:placeholder-shown .form_label {
     font-size: 1.3rem;
     cursor: text;
     top: 20px;
@@ -372,8 +187,6 @@ section .main_btn:hover i{
   
   .form__label {
     width: 600px;
-    position: absolute;
-    top: 0;
     display: block;
     transition: 0.2s;
     font-size: 1rem;
@@ -394,9 +207,7 @@ section .main_btn:hover i{
     border-image-slice: 1;
   }
 
-  .form__field:focus ~ .form__label {
-    position: absolute;
-    top: 0;
+  .form_field:focus ~ .form_label {
     display: block;
     transition: 0.2s;
     font-size: 1rem;
@@ -404,7 +215,7 @@ section .main_btn:hover i{
     font-weight: 700;
   }
   
-  .form__field:required, .form__field:invalid {
+  .form_field:required, .form_field:invalid {
     box-shadow: none;
   }
 
@@ -413,8 +224,6 @@ section .main_btn:hover i{
     background: linear-gradient(92.62deg, #5AFF3F 1.25%, #00FF47 43.56%, #5EFBA6 73.13%, #5FEFBB 84.35%, #4EFFD4 99.13%);
     border-radius: 79px;
     width: 203.33px;
-    margin-top: 30px;
-    margin-left: 1190px;
 }
 
 .send p{
@@ -422,7 +231,6 @@ section .main_btn:hover i{
     font-weight: 700;
     font-size: 16px;
     align-items: center;
-    padding-left: 75px;
 }
 
 .send a{
@@ -432,22 +240,13 @@ section .main_btn:hover i{
 
 
 .icons{
-    margin-left: 1125px;
-    margin-top: 55px;
     font-size: 45px;
     display: flex;
     gap: 90px;
     
 }
 
-
-.fa-phone{
-    margin-left: -25px;
-}
-
 .cell{
-    margin-top: 20px;
-    margin-left: -45px;
     font-size: 20px;
     width: 70px;
     font-family: 'Kantumruy Pro', sans-serif;
@@ -459,14 +258,8 @@ section .main_btn:hover i{
     
 }
 
-.fa-envelope{
-    margin-left: 60px;
-}
-
 .emailms{
     font-size: 20px;
-    margin-top: 20px;
-    margin-left: -30px;
     font-family: 'Kantumruy Pro', sans-serif;
 }
 
@@ -475,137 +268,19 @@ section .main_btn:hover i{
     transition: 100ms ease-out;
 }
 
-.red-dot{
-    margin-left: -90px;
-}
-
-
 .icons .red-dot:hover{
     color: #11998e;
     transition: 100ms ease-out;
 }
 
-
-.fa-map-location-dot{
-    margin-left: 70px;
-}
-
 .loc{
     font-size: 20px;
-    margin-top: 20px;
-    margin-left: 38px;
     font-family: 'Kantumruy Pro', sans-serif;
 }
 
-
-.bio{
-    margin-top: -520px;
-    margin-left: 150px;
-    width: 600px;
-    font-weight: 500;
-    font-size: 24px;
-    font-family: 'Kantumruy Pro', sans-serif;
-
-}
-
-
-.slideshow-container {
-  margin-left: 230px;
-  margin-top: 50px;
-  max-width: 400px;
-  position: relative;
-  
-}
-
-.mySlides {
-  display: none;
-}
-
-
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-.pontos{
-    margin-right: 1060px;
-}
-
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-/* .active, .dot:hover {
-  background-color: #717171;
-} */
-
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
- 
-
-@media screen and (max-width: 499px){
-    
-    nav .fa-bars{
-        opacity: 1;
-    }
-        
-
-    nav ul{
-        display: none;
-    }
-    nav .icon{
-        display: none;
+@media screen and (max-width:430px) {
+    .all {
+        display: flex !important;
+        flex-direction: column !important;
     }
 }

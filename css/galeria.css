@@ -33,4 +33,21 @@ td a img {
     tr {
         flex-direction: column;
     }
+
+    td a img {
+        width: 100%;
+        height: 300px;
+    }
+
+    td {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .types h2 {
+        text-align: center;
+        font-size: 50px;
+    }
 }

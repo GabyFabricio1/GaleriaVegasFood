@@ -30,8 +30,22 @@ section{
 
 .all{
     display: flex;
+    width: 100%;
 }
 
+.esquerd {
+  width: 50%;
+  height: 100% !important;
+}
+
+.direito {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
 
 .env span{
     color: #000;
@@ -41,11 +55,11 @@ section{
 }
 
 .bio{
-    width: 600px;
     font-weight: 500;
     font-size: 24px;
     font-family: 'Kantumruy Pro', sans-serif;
-
+    text-align: center;
+    margin-top: 40px;
 }
   
   .mySlides {
@@ -243,7 +257,7 @@ section{
     font-size: 45px;
     display: flex;
     gap: 90px;
-    
+    cursor: pointer;
 }
 
 .cell{
@@ -278,9 +292,90 @@ section{
     font-family: 'Kantumruy Pro', sans-serif;
 }
 
+.main {
+  width: 100% !important;
+}
+
+
 @media screen and (max-width:430px) {
     .all {
-        display: flex !important;
-        flex-direction: column !important;
+        display: block !important;
+    }
+    .esquerd {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .direito {
+      width: 100%;
+    }
+    .direito span {
+      width: 59% !important;
+      display: block;
+      font-size: 40px;
+    }
+
+    .env {
+      width: 100%;
+      text-align: center;
+    }
+
+    .env span {
+      width: 100% !important;
+      text-align: center;
+    }
+
+    .direito h2 {
+      display: flex;
+      justify-content: center;
+    }
+
+    .direito{
+      width: 100% !important;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .bio {
+      width: 90%;
+      margin-top: 0;
+    }
+
+    .ababo {
+      text-align: center;
+    }
+
+    .ababo span {
+      text-align: center !important;
+      width: 100% !important;
+    }
+
+    .box2 {
+      width: 100% !important;
+    }
+
+    .form__field {
+      width: 90% !important;
+    }
+
+    .form__label {
+      width: 100% !important;
+    }
+
+    .contato {
+      width: 90%;
+    }
+
+    .icons {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
     }
 }

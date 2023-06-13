@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(92.62deg, #5AFF3F 1.25%, #00FF47 43.56%, #5EFBA6 73.13%, #5FEFBB 84.35%, #4EFFD4 99.13%);   
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.box{
+    text-align: center;
+    background-color: rgb(21, 110, 21);
+    border-radius: 20px;
+    height: 400px;
+   width: 300px;
+    font-family: 'Kantumruy Pro', sans-serif;
+    font-weight: 700;   
+}
+
+input{
+    outline: none;
+}
+
+p{
+    font-size: 25px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+img{
+    padding-top: 23px;
+    width: 30%;
+    
+}
+
+#user{
+    border-radius: 10px;
+    border-color: #FFF;
+    width: 60%;
+    height: 28px;
+    outline: non;
+}
+
+#password{
+    border-radius: 10px;
+    border-color: #FFF;
+    width: 60%;
+    height: 28px;
+}
+
+.btn{
+    width: 60%;
+    height: 40px;
+    background-color: rgb(15, 255, 87);
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn p{
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+
+.input-field {
+    width: 100%;
+    text-align: center;
+}
+
+.btn2{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen (max-width: 400px){
+    .container{
+        width: 100%;
+    }
+}

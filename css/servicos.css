@@ -1,4 +1,8 @@
  
+ :root {
+    --column-gap: 5px;
+  }
+
  *{
     margin: 0;
     padding: 0;
@@ -172,11 +176,19 @@ nav .container-fluid{
 
 main {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+main .produtos{
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    flex: 1;
+}
+
+
 
 table {
     width: 90%;

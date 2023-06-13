@@ -9,6 +9,14 @@ td img {
     height: 400px;
 }
 
+.container-fluid{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: center;
+}
+
 @media screen and (max-width:430px) {
     tr {
         flex-direction: column;

@@ -14,7 +14,7 @@ section{
     height: 100vh;
 }
 
-section nav{
+nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -29,34 +29,33 @@ section nav{
     background-color:#4B660F;
 }
 
-section nav .logo img{
+nav .logo img{
     width: 100px;
     cursor: pointer;
     margin: 7px 0;
    
 }
-section nav .logo{
+nav .logo{
     display: flex;
     align-items: center;
 }
-section nav .logo a{
+nav .logo a{
     text-decoration: none;
     color:white;
     font-size: 30px;
     font-family: 'Lilita One', cursive;
-    
 }
 
-section nav ul{
+nav ul{
     list-style: none;
 }
 
-section nav ul li{
+nav ul li{
     display: inline-block;
     margin: 0 15px;
 }
 
-section nav ul li a{
+nav ul li a{
     text-decoration: none;
     color:white;
     font-weight: 500;
@@ -66,7 +65,7 @@ section nav ul li a{
 
 }
 
-section nav ul li a::after{
+nav ul li a::after{
     content: '';
     width: 0;
     height: 2px;
@@ -75,15 +74,15 @@ section nav ul li a::after{
     transition: 0.2s linear;
 }
 
-section nav ul li a:hover::after{
+nav ul li a:hover::after{
     width: 100%;
 }
 
-section nav ul li a:hover{
+nav ul li a:hover{
     color: #fac031;
 }
 
-section nav .icon i{
+nav .icon i{
     font-size: 18px;
     color: white;
     margin: 0 5px;

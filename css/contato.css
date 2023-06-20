@@ -38,6 +38,10 @@ section{
   height: 100% !important;
 }
 
+.navbar {
+  background-color: #4B660F !important;
+}
+
 .direito {
   width: 50%;
   display: flex;
